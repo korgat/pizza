@@ -12,7 +12,7 @@ export const setIsLoaded = (status) => ({
 
 export const getPizza = (category, sort, sortDirection) => (dispatch) => {
 	dispatch(setIsLoaded(false))
-	axios.get(`http://localhost:3001/pizzaTypes?${category ? "category=" + category : ""}&_sort=${sort}&_order=${sortDirection}`).then(resp => {
+	axios.get(`https://reactpizza-cafe.herokuapp.com/api?${category ? "category=" + category : ""}&_sort=${sort}&_order=${sortDirection}`).then(resp => {
 		dispatch(setIsLoaded(true))
 		dispatch(setPizza(resp.data))
 
