@@ -1,0 +1,288 @@
+{
+	"pizzaTypes": [
+		{
+			"id": 1,
+			"title": "Цезарь",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/4518d232ca98422f876872b0fb2669a3_292x292.jpeg",
+			"price": [
+				400,
+				695,
+				845
+			],
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				30,
+				40
+			],
+			"category": "meat",
+			"popularity": 9
+		},
+		{
+			"id": 2,
+			"title": "Цыпленок блю чиз",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/a8413f18d18341b5a0de51e9a7807265_292x292.jpeg",
+			"price": [
+				445,
+				695,
+				845
+			],
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26
+			],
+			"category": "meat",
+			"popularity": 10
+		},
+		{
+			"id": 3,
+			"title": "Пепперони фреш",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/5dffe4c7d3bc49668f50c1d08d920992_292x292.jpeg",
+			"price": [
+				245,
+				435,
+				575
+			],
+			"dough": [
+				0
+			],
+			"sizes": [
+				26,
+				30,
+				40
+			],
+			"category": "meat",
+			"popularity": 9
+		},
+		{
+			"id": 4,
+			"title": "Чизбургер-пицца",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+			"price": [
+				395,
+				575,
+				689
+			],
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				30,
+				40
+			],
+			"category": "meat",
+			"popularity": 8
+		},
+		{
+			"id": 5,
+			"title": "Сырный цыпленок",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/fc4d663d-fb00-48ea-8391-7a4648553f25.jpg",
+			"price": [
+				395,
+				625,
+				775
+			],
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				30,
+				40
+			],
+			"category": "meat",
+			"popularity": 7
+		},
+		{
+			"id": 6,
+			"title": "Песто",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/32ab88d1819048e285a91d91b9ef4451_292x292.jpeg",
+			"price": [
+				395,
+				645,
+				755
+			],
+			"dough": [
+				1
+			],
+			"sizes": [
+				26,
+				30
+			],
+			"category": "meat",
+			"popularity": 6
+		},
+		{
+			"id": 7,
+			"title": "Четыре сезона",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/6d4e1c2c-1c81-40c6-95d9-0d19afcebcb5.jpg",
+			"price": [
+				425,
+				595,
+				710
+			],
+			"dough": [
+				1
+			],
+			"sizes": [
+				26,
+				30,
+				40
+			],
+			"category": "meat",
+			"popularity": 5
+		},
+		{
+			"id": 8,
+			"title": "Мексиканская 🌶️🌶️",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/dc5dc4e9-932a-4abf-9472-dfb6326ea9ee.jpg",
+			"price": [
+				425,
+				705,
+				835
+			],
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				40
+			],
+			"category": "hot",
+			"popularity": 3
+		},
+		{
+			"id": 9,
+			"title": "Овощи и грибы 🌱",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/7a497170e99a435f8535f33c3ebaddc3_292x292.jpeg",
+			"price": [
+				400,
+				680,
+				800
+			],
+			"vegetarian": 1,
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				40
+			],
+			"category": "vegetarian",
+			"popularity": 3
+		},
+		{
+			"id": 10,
+			"title": "Пицца-пирог 🌱",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/3327d3dd-1feb-443f-97b6-731fa8e64fac.jpg",
+			"price": [
+				380,
+				685,
+				800
+			],
+			"vegetarian": 1,
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				40
+			],
+			"category": "vegetarian",
+			"popularity": 3
+		},
+		{
+			"id": 11,
+			"title": "Запеченное яблоко 🌱",
+			"url": "https://dodopizza-a.akamaihd.net/static/Img/Products/de3aa884d63f43ac86fde8aa60d0b762_292x292.jpeg",
+			"price": [
+				410,
+				685,
+				800
+			],
+			"vegetarian": 1,
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				40
+			],
+			"category": "vegetarian",
+			"popularity": 1
+		},
+		{
+			"id": 12,
+			"title": "Кальцонэ с курицей",
+			"url": "https://pizzeriamaestros.ro/wp-content/uploads/2019/02/calzone.png",
+			"price": [
+				410,
+				685,
+				800
+			],
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				40
+			],
+			"category": "closed",
+			"popularity": 3
+		},
+		{
+			"id": 13,
+			"title": "Кальцонэ Бьянка",
+			"url": "https://taiyakiufa.ru/wp-content/uploads/2020/08/gurman_dostavka_edi_noviy_urengoy_kalsone.png",
+			"price": [
+				450,
+				685,
+				800
+			],
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				40
+			],
+			"category": "closed",
+			"popularity": 3
+		},
+		{
+			"id": 14,
+			"title": "Пицца BBQ",
+			"url": "https://i2.wp.com/pizzeriamaestros.ro/wp-content/uploads/2019/02/Stagione.png?resize=300%2C300&ssl=1",
+			"price": [
+				410,
+				685,
+				800
+			],
+			"dough": [
+				0,
+				1
+			],
+			"sizes": [
+				26,
+				40
+			],
+			"category": "grill",
+			"popularity": 3
+		}
+	]
+}
