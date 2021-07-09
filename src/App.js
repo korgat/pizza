@@ -31,7 +31,7 @@ function App() {
 		<div className="wrapper">
 			<Header />
 			<div className="content">
-				<Route exact path="/" component={Home} />
+				<Route exact path="/pizza" component={Home} />
 				<Route path="/cart" component={Cart} />
 			</div>
 		</div>
