@@ -1,4 +1,3 @@
-
 export const setCategory = (type, index) => ({
 	type: "SET_CATEGORY",
 	payload: { type, index }

@@ -8,6 +8,7 @@
 
 		svg {
 			margin-right: 8px;
+			cursor: pointer;
 			&.down {
 				transform: rotate(180deg);
 			}

@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 import pizzaLogo from "../../assets/pizza-logo.svg"
 
 const Header = () => {
-
 	const { totalCount, totalPrice } = useSelector(state => ({
 		totalCount: state.cart.totalCount,
 		totalPrice: state.cart.totalPrice,
 	}))
+
 	return (
 		<div className="header">
 			<div className="container">
@@ -59,7 +59,6 @@ const Header = () => {
 				</div>
 			</div>
 		</div>
-
 	)
 }
 

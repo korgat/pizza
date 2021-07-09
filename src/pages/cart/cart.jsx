@@ -60,7 +60,6 @@ const Cart = () => {
 								<path d="M11.6666 9.16667V14.1667" stroke="#B6B6B6" stroke-width="1.2"
 									stroke-linecap="round" stroke-linejoin="round" />
 							</svg>
-
 							<span>Очистить корзину</span>
 						</div>
 					</div>
@@ -69,9 +68,9 @@ const Cart = () => {
 							deletePizzaFromStack={deletePizzaFromStack}
 							addPizzaToStack={addPizzaToStack}
 							handleDeleteStack={handleDeleteStack}
+							url={arr[0].url}
 							pizzasStack={arr}
 							key={`${arr[0].title}_${index}`} />)}
-
 					</div>
 					<div class="cart__bottom">
 						<div class="cart__bottom-details">

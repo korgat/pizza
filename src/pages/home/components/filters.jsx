@@ -49,7 +49,6 @@ const Filters = ({ currentFilter }) => {
 		currentFilter.sortDirection === "asc"
 			? dispatch(setSortDirection("desc"))
 			: dispatch(setSortDirection("asc"))
-
 	}
 
 	return (
@@ -99,7 +98,6 @@ const Filters = ({ currentFilter }) => {
 				</div>}
 			</div>
 		</div>
-
 	)
 }
 
